@@ -1,0 +1,17 @@
+////////////////////////// TypeORM Tutorial //////////////////////////
+1. Setup And Installation ------------> connection with database 
+2. Schema And Migration --------------> create entity and table 
+3. Repository Dependency Injection ---> utilizing dependency injection to inject entities to our 					                services
+4. Repository API --------------------> Typical CRUD Operation with custom query
+5. Relationships And Joins------------> between table ..
+///////////////////////////////////////////////////////////////////////
+1. CLI thing : npm i -g @nestjs/cli
+2. nest new nest-crash-course  -- for creating new nest application 
+3. yarn add --save @nestjs/typeorm typeorm sqlite3
+4. npm run build 
+5. npm run start:dev
+6. npm i -g typeorm // in production .. migration 
+7. npm i -g ts-node 
+8. typeorm cli Installation from website 
+9 .  npm run migration:generate -- UserMigration // name of migration is UserMigration
+10. npm i wiston 
