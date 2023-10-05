@@ -12,12 +12,12 @@ export class ContactInfo{
   @Column()
   email: string;
   
-  /**
-   * @Column()
-   * employeeId: number; 
-   * //🟢 eita korle valo hoito onek khetre .. contact table dekhei bole 
-   * // deowa jaito .. eta kon employee er .. 
-   */
+  
+  @Column()
+  employeeId: number; 
+  //🟢 eita korle valo hoito onek khetre .. contact table dekhei bole 
+  // deowa jaito .. eta kon employee er .. 
+   
 
   /*
   // 🟢 this is uni-directional relationship .. 

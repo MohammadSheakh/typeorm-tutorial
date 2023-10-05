@@ -15,7 +15,7 @@ export class Task{
    * // kono employee delete hoye gele .. task table er ei employee option e 
    * //null assign kore dibo .. jeno pore onno kono employee ke ei task assign kore deowa jete pare 
    */
-  employee: Employee
+  employee: Employee;
 }
 
 /**

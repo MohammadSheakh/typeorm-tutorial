@@ -1,0 +1,4 @@
+1. npm i -g @nestjs/cli@latest
+2. nest new nest-typeorm
+3. nest g resource users 
+

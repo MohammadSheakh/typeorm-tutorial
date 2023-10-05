@@ -1,6 +1,6 @@
 import { Controller, Get } from '@nestjs/common';
 import { AppService } from './app.service';
-import { User } from './user.entity';
+import { User } from './entity/user.entity';
 
 @Controller()
 export class AppController {
@@ -27,6 +27,12 @@ export class AppController {
 
   }
 
+  @Get('/seed')
+  async seed() : Promise<any>{
+    await this.appService.seed();
+    return 'seed complete';
+  }
+  
   
 
 
